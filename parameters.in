@@ -1,0 +1,32 @@
+tmax 	200
+nemax   1
+dt	    0.00125
+xmax	256.0
+xmin	0.0
+ymax    256.0
+ymin    0.0
+zmax    1.0
+zmin    0.0
+=====
+Nx   	256
+Ny 	    256
+Nz	    1
+Npart_cell  2
+=====
+mi_me   1836
+beta_i  0.2
+beta_e  0.2
+=====
+solver_Maxwell  0
+=====
+solver_Boris    0
+=====
+solver  1
+gam     1.66666667
+bc_x    1
+bc_y    1
+SIR     1
+limiter    1
+variabletype    1
+limitertype    1
+epsil    1e-12
